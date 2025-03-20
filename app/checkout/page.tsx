@@ -58,7 +58,7 @@ export default function CheckoutPage() {
             ))}
           </ul>
           <div className="mt-4 border-t pt-2 text-lg font-semibold">
-            Total: ${(total / 100).toFixed(2)}
+            Total: ₹{(total / 100).toFixed(2)}
           </div>
         </CardContent>
       </Card>
