@@ -21,7 +21,7 @@ export const checkoutAction = async (formData: FormData): Promise<void> => {
     line_items,
     mode : "payment",
     billing_address_collection : "required",
-    success_url : `${process.env.NEXT_PUBLIC_BASE_URL}/`,
+    success_url : `${process.env.NEXT_PUBLIC_BASE_URL}/success`,
     cancel_url : `${process.env.NEXT_PUBLIC_BASE_URL}/checkout`,
   })
 
