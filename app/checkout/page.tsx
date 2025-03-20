@@ -34,7 +34,7 @@ export default function CheckoutPage() {
                 <div className="flex justify-between">
                   <span className="font-medium">{item.name}</span>
                   <span className="font-semibold">
-                    ${((item.price * item.quantity) / 100).toFixed(2)}
+                    ₹{((item.price * item.quantity) / 100).toFixed(2)}
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
